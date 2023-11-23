@@ -1,0 +1,83 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Nora155.github.io/Manifest/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://997b7faa-ae21-4e31-9606-38d37ea14770",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://ee70b459-6321-4d70-a46b-2d48948f10d0",
+      "@type" : "sc:Canvas",
+      "label" : "Catto",
+      "height" : 4032,
+      "width" : 3024,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://05f2d269-be43-420c-afcd-fd9a99f66dc3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/gatto_202311/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/gatto_202311",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 4032,
+          "width" : 3024
+        },
+        "on" : "http://ee70b459-6321-4d70-a46b-2d48948f10d0"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://b05b8f83-6b9b-4148-974c-97180caf9604",
+      "@type" : "sc:Canvas",
+      "label" : "Jeep ",
+      "height" : 4002,
+      "width" : 6000,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://336b7dd1-c34a-4580-9206-e0a96b7fd263",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/luke-thornton-B1pSfao3GjE-unsplash/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/luke-thornton-B1pSfao3GjE-unsplash",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 4002,
+          "width" : 6000
+        },
+        "on" : "http://b05b8f83-6b9b-4148-974c-97180caf9604"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://f4ac9ab4-0e3f-494f-b65a-9b5f9228967a",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 0,
+      "width" : 0,
+      "images" : [ ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
